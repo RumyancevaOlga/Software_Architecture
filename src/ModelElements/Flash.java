@@ -7,14 +7,6 @@ public class Flash {
     public Color color;
     public float power;
 
-    //Конструктор класса
-    public Flash(Point3D location, Angle3D angle, Color color, float power) {
-        this.location = location;
-        this.angle = angle;
-        this.color = color;
-        this.power = power;
-    }
-
     //Метод поворота флэш-объекта
     public void Rotate(Angle3D angle3D) {
 

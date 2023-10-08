@@ -8,8 +8,9 @@ public class PoligonalModel {
     public ArrayList<Texture> textures;
 
     //Конструктор класса
-    public PoligonalModel(ArrayList<Poligon> poligons, ArrayList<Texture> textures) {
-        this.poligons = poligons;
+    public PoligonalModel(ArrayList<Texture> textures) {
+        this.poligons = new ArrayList<Poligon>();
         this.textures = textures;
+        poligons.add(new Poligon(new ArrayList<Point3D>()));
     }
 }

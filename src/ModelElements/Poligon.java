@@ -9,6 +9,7 @@ public class Poligon {
 
     //Конструктор класса
     public Poligon(ArrayList<Point3D> points) {
+
         this.points = points;
     }
 }
